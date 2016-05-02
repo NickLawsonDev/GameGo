@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameGo", "GameGo\GameGo.csproj", "{056E8DA0-FD5E-4269-A277-71AAE5C436B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameGo.Web", "GameGo\GameGo.Web.csproj", "{056E8DA0-FD5E-4269-A277-71AAE5C436B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameGo.Data", "GameGo.Data\GameGo.Data.csproj", "{6054A7D3-A9B9-43F7-96CE-E51D5C15AB46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameGo.Service", "GameGo.Service\GameGo.Service.csproj", "{8F0235BB-8D70-42DC-95AB-91F81B0A0A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameGo.Models", "GameGo.Models\GameGo.Models.csproj", "{BBD8CFD3-2003-4B54-A47D-347B4B95F762}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{056E8DA0-FD5E-4269-A277-71AAE5C436B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{056E8DA0-FD5E-4269-A277-71AAE5C436B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{056E8DA0-FD5E-4269-A277-71AAE5C436B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6054A7D3-A9B9-43F7-96CE-E51D5C15AB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6054A7D3-A9B9-43F7-96CE-E51D5C15AB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6054A7D3-A9B9-43F7-96CE-E51D5C15AB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6054A7D3-A9B9-43F7-96CE-E51D5C15AB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0235BB-8D70-42DC-95AB-91F81B0A0A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0235BB-8D70-42DC-95AB-91F81B0A0A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0235BB-8D70-42DC-95AB-91F81B0A0A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0235BB-8D70-42DC-95AB-91F81B0A0A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD8CFD3-2003-4B54-A47D-347B4B95F762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD8CFD3-2003-4B54-A47D-347B4B95F762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD8CFD3-2003-4B54-A47D-347B4B95F762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD8CFD3-2003-4B54-A47D-347B4B95F762}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
