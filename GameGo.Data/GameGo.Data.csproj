@@ -83,21 +83,29 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Game.cs" />
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="Migrations\201605031731361_InitialCreate.cs" />
+    <Compile Include="Migrations\201605031731361_InitialCreate.Designer.cs">
+      <DependentUpon>201605031731361_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605031918504_GotRidOfGamesDBSet.cs" />
+    <Compile Include="Migrations\201605031918504_GotRidOfGamesDBSet.Designer.cs">
+      <DependentUpon>201605031918504_GotRidOfGamesDBSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Store.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201605031731361_InitialCreate.resx">
+      <DependentUpon>201605031731361_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605031918504_GotRidOfGamesDBSet.resx">
+      <DependentUpon>201605031918504_GotRidOfGamesDBSet.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

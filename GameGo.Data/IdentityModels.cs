@@ -32,7 +32,7 @@ namespace GameGo.Data
             return new GameGoDbContext();
         }
 
-        public DbSet<Game> Games { get; set; }
+        //public DbSet<Game> Games { get; set; }
         public DbSet<Store> Stores { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
